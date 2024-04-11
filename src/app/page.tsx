@@ -3,14 +3,16 @@ import { Navbar } from "@/components";
 import Countdown from "@/components/countdown";
 import { HappyCoupleSection, HomeSection, OurPhotos } from "@/sections";
 import { Box, Stack } from "@mui/material";
+import { useEffect } from "react";
 
 export default function Home() {
-  if (process.env.NODE_ENV === "production") {
-    window.console = {
-      ...window.console, log: ()=>{}, info: ()=>{}, error: ()=>{}, warn: ()=>{}
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") {
+      window.console = {
+        ...window.console, log: ()=>{}, info: ()=>{}, error: ()=>{}, warn: ()=>{}
+      }
     }
-  } 
-  
+  }, [])
 
   return (
     <>
