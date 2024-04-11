@@ -1,0 +1,10 @@
+.countdown-wrapper {
+    background-color: #FAF0FF;
+    /* position: absolute;
+    left: 50%;
+    bottom: -25%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    padding: 20px;
+}
