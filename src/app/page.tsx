@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <>
       {/* <Navbar /> */}
-      {/* <HomeSection />
-      <Countdown /> */}
+      <HomeSection />
+      <Countdown />
       <Box
         sx={{
           width: { xs: "95%", sm: "95%", md: "80%" },
@@ -47,7 +47,7 @@ export default function Home() {
           <Box sx={{
             border: "5px solid black",
             padding: "15px",
-            
+
           }}>
             
           </Box>
