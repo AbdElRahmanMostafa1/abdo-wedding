@@ -5,6 +5,13 @@ import { HappyCoupleSection, HomeSection, OurPhotos } from "@/sections";
 import { Box, Stack } from "@mui/material";
 
 export default function Home() {
+  if (process.env.NODE_ENV === "production") {
+    window.console = {
+      ...window.console, log: ()=>{}, info: ()=>{}, error: ()=>{}, warn: ()=>{}
+    }
+  } 
+  
+
   return (
     <>
       {/* <Navbar /> */}
