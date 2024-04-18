@@ -58,7 +58,8 @@ export default function Home() {
         sx={{
           width: { xs: "95%", sm: "95%", md: "80%" },
           margin: "auto",
-          padding: "30px 0"
+          padding: "30px 0",
+          height:"81vh"
         }}
       >
         <Typography variant="h4" textAlign={"center"} marginBottom={"20px"}>
