@@ -6,7 +6,7 @@ const HappyCouple = () => {
   return (
     <>
       <Box id="happy-couple" component={"section"}>
-        <Typography variant="h4" textAlign={"center"} marginBottom={"88px"}>
+        <Typography variant="h4" textAlign={"center"} marginBottom={"50px"}>
           Happy Couple
         </Typography>
 
@@ -19,9 +19,11 @@ const HappyCouple = () => {
               mr={{ sm: "0", md: "15px" }}
               flex={"0.25"}
             >
-              <img
+              <Image
                 src="https://jd.exsythemes.com/img/happy-couple/groom.jpg"
                 alt="Groom"
+                width={`${100}`}
+                height={100}
                 style={{
                   display: "block",
                   width: "100%",
@@ -69,7 +71,7 @@ const HappyCouple = () => {
                 Alaa
               </Typography>
               <Box>
-                <Typography>the Bride</Typography>
+                <Typography textAlign={"center"}>The Bride</Typography>
               </Box>
               <Typography mb="10px">
                 I bumped into Diana again 7 years later in a club, she had
@@ -93,9 +95,11 @@ const HappyCouple = () => {
               ml="15px"
               flex={"0.25"}
             >
-              <img
+              <Image
                 src="https://jd.exsythemes.com/img/happy-couple/bride.jpg"
                 alt="Groom"
+                width={`${100}`}
+                height={100}
                 style={{
                   display: "block",
                   width: "100%",

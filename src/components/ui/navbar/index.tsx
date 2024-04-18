@@ -20,16 +20,8 @@ const navLinks = [
     link: "happy-couple",
   },
   {
-    label: "Love Story",
-    link: "love-story",
-  },
-  {
-    label: "Our Photos",
-    link: "our-photos",
-  },
-  {
-    label: "Venus",
-    link: "venus",
+    label: "Wedding Cermony",
+    link: "wedding-cermony",
   },
 ];
 
@@ -59,12 +51,12 @@ const ResponsiveAppBar = () => {
               alignItems={"center"}
             >
               <Box>
-                <Image
+                {/* <Image
                   src="https://jd.exsythemes.com/img/header/logo.png"
                   alt="Logo"
                   width={40}
                   height={40}
-                />
+                /> */}
               </Box>
               <Box
                 component="ul"
@@ -91,14 +83,14 @@ const ResponsiveAppBar = () => {
                 ))}
               </Box>
               <Box>
-                <Button
+                {/* <Button
                   onClick={toggleMobileNavLinks}
                   sx={{
                     display: { xs: "block", sm: "none" },
                   }}
                 >
                   <Typography>MENU</Typography>
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Toolbar>

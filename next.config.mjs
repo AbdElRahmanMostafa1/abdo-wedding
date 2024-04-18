@@ -3,7 +3,10 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                hostname: 'jd.exsythemes.com'
+                hostname: 'media.istockphoto.com',
+            }, 
+            {
+                hostname: "jd.exsythemes.com"
             }
         ]
     },

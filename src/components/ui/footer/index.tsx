@@ -1,4 +1,5 @@
 import { Box, Typography } from "@mui/material";
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -37,7 +38,8 @@ const Footer = () => {
                         margin: "0px 15px",
                     }}
                 >
-                    <img src="https://jd.exsythemes.com/img/footer/photo.jpg" />
+                    <Image src="https://jd.exsythemes.com/img/footer/photo.jpg" alt="Footer Image" width={192} className="!sm:mt-0 " height={112} style={{
+                    }} />
                     <Typography textAlign={"center"}>25/04/2024</Typography>
                 </Box>
                 <Typography

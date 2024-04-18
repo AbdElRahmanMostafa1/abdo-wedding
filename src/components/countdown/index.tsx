@@ -6,11 +6,12 @@ import useCountdownDate from "@/hooks/useCountdownDate";
 
 const Countdown = () => {
   const [days, hours, minutes, seconds] = useCountdownDate(
-    new Date("2024-04-25T18:00:00.00Z")
+    new Date("2024-04-25T16:00:00.00Z")
   );
 
   return (
-    <Box className="countdown-wrapper">
+    <Box className="countdown-wrapper" sx={{
+    }}>
       <Typography
         variant="h5"
         component={"h5"}
