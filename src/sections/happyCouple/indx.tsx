@@ -68,7 +68,7 @@ const HappyCouple = () => {
               }}
             >
               <Typography variant="h5" textAlign={"center"} fontWeight={"900"}>
-                Alaa
+                Aalaa
               </Typography>
               <Box>
                 <Typography textAlign={"center"}>The Bride</Typography>

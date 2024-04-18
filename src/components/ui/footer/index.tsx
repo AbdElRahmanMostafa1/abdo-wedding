@@ -49,7 +49,7 @@ const Footer = () => {
                         display: { xs: "none", sm: "block" },
                     }}
                 >
-                    Alaa
+                    Aalaa
                 </Typography>{" "}
             </Box>
         </Box>

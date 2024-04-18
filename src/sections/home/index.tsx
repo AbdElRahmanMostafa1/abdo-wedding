@@ -37,7 +37,7 @@ const HomeSection = () => {
             fontSize: { xs: "32px", md: "48px", lg: "62px" },
           }}
         >
-          AbdElRahman & Alaa
+          AbdElRahman & Aalaa
         </Typography>
         <Box
           sx={{
