@@ -6,6 +6,9 @@ const nextConfig = {
                 hostname: 'media.istockphoto.com',
             }, 
             {
+                hostname: 'scontent.fcai2-1.fna.fbcdn.net',
+            }, 
+            {
                 hostname: "jd.exsythemes.com"
             }
         ]
