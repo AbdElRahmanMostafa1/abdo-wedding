@@ -59,7 +59,11 @@ export default function Home() {
           width: { xs: "95%", sm: "95%", md: "80%" },
           margin: "auto",
           padding: "30px 0",
-          height:"81vh"
+          height: {
+            xs: "105vh",
+            md: "85vh",
+            lg: "75vh"
+          }
         }}
       >
         <Typography variant="h4" textAlign={"center"} marginBottom={"20px"}>
@@ -170,13 +174,13 @@ export default function Home() {
         </Box>
       </Box>
 
-      <div
-        style={{
-          marginTop: "100px",
-        }}
+      <Box
+      sx={{
+        marginTop: "100px",
+      }}
       >
         <Footer />
-      </div>
+      </Box>
     </>
   );
 }
